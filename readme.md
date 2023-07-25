@@ -73,3 +73,5 @@ Lastly I have added a way to plot rv, abiet not the best
 import Plots
 plotrv(Plots.bar, Z, "Z")
 ```
+
+That's about it, please feel free to use or add to it under the license. I have more plans for this as need be.
