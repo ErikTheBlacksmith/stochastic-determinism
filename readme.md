@@ -65,7 +65,7 @@ I have added the following functions, some of which can have random variables as
 duniform(iterable) # discrete uniform [duniform(1:6) is a die]
 binom(n,p) # both n and p can be rv
 poisson(λ, vals) # λ can be an rv
-compound sum(N, Xi) # both are rv, Σ(from i=1->N) (Xi)
+compoundsum(N, Xi) # both are rv, Σ(from i=1->N) (Xi)
 ```
 
 Lastly I have added a way to plot rv, abiet not the best
@@ -75,3 +75,4 @@ plotrv(Plots.bar, Z, "Z")
 ```
 
 That's about it, please feel free to use or add to it under the license. I have more plans for this as need be.
+
